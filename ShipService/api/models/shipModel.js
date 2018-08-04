@@ -27,6 +27,10 @@ var ShipSchema = new Schema({
             type:String
         }],
         default: []
+    },
+    Location:{
+        type:String,
+        required: 'Ship Location'
     }
 
 });
