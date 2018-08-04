@@ -1,0 +1,17 @@
+{
+  "name": "shipservice",
+  "version": "1.0.0",
+  "description": "Ship Service API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

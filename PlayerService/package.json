@@ -1,0 +1,11 @@
+{
+  "name": "playerservice",
+  "version": "1.0.0",
+  "description": "Player Service API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
