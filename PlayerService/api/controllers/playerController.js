@@ -39,7 +39,7 @@ exports.update_player = function(req, res){
 exports.delete_player = function(req, res){
     Player.remove({_id: req.params.playerId}, function(err,player){
         if(err)
-            res.send(err)
+            res.send(err);
         res.json({ message: 'Player deleted'});
     });
 };
